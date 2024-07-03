@@ -1,0 +1,17 @@
+header {
+  background-color: #212529;
+  .header_content {
+    .navbar-brand {
+      color: white;
+    }
+    .navbar-toggler {
+      background-color: wheat;
+    }
+    .nav-link {
+      color: gray;
+      &.active {
+        color: white;
+      }
+    }
+  }
+}
